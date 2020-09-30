@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Programacion Web</title>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <link rel="stylesheet" href="../plugins/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="../dist/css/adminlte.min.css">
+  <script src="../plugins/jquery/jquery.min.js"></script>
+  <script src="../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../dist/js/adminlte.min.js"></script>
+  <script src="../dist/js/app.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+  <script src="sweetalert2.all.min.js"></script>
+  <!-- Optional: include a polyfill for ES6 Promises for IE11 -->
+  <script src="https://cdn.jsdelivr.net/npm/promise-polyfill"></script>
+  <script src="sweetalert2.min.js"></script>
+  <link rel="stylesheet" href="sweetalert2.min.css">
+  <script src="../dist/js/app.js"></script>
+
+
+</head>
+
+<body>
+  <nav class="navbar navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Masa Corporal</a>
+  </nav>
+  <br>
+  <div class="container">
+    <div style="text-align: center;">
+      <a href="../Inicio.html"><button type="button" class="btn btn-secondary btn-lg">INICIO</button></a>
+      <a href="Tabla.html"> <button type="button" class="btn btn-secondary btn-lg">TABLAS DE MULTIPLICAR</button> </a>
+      <a href="Masa.html"> <button type="button" class="btn btn-secondary btn-lg">MASA CORPORAL</button></a>
+      <a href="Login.html"> <button type="button" class="btn btn-secondary btn-lg">INFORMACION</button></a>
+
+    </div>
+    <br>
+
+
+    <div class="card card-primary">
+      <div class="card-header">
+        <h3 class="card-title">MASA CORPORAL</h3>
+      </div>
+
+      <form>
+        <div class="card-body">
+          <div class="form-group">
+            <label for="nombre">Nombre</label>
+            <input type="text" class="form-control" id="nombre" placeholder="Ingrese el nombre">
+          </div>
+
+          <div class="form-group">
+            <label for="altura">Altura(metros)</label>
+            <input type="text" class="form-control" id="altura" placeholder="Ingrese la altura ">
+          </div>
+
+          <div class="form-group">
+            <label for="peso">peso(kg)</label>
+            <input type="text" class="form-control" id="peso" placeholder="Ingrese el peso">
+          </div>
+        </div>
+        <div style="text-align: center">
+          <button type="button" class="btn btn-secondary btn-lg" onclick="EventoAlert()">INFORMACION</button>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+
+          <br>
+          <br>
+          <br>
+
+
+        </div>
+      </form>
+
+    </div>
+
+
+</body>
+
+<footer class="page-footer font-small blue">
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="https://mdbootstrap.com/"> Angel Sanchez Delgadillo </a>
+  </div>
+</footer>
+
+</html>
